@@ -1,0 +1,31 @@
+#include <iostream>
+using namespace std;
+
+
+int main(int argc, char** argv) {
+	
+	int num[7];
+	int i, j;
+	
+	for(int i = 0, i < 6; i++){
+		cout<< "Please input your number: ";
+		cin>> num[i]
+	}
+	
+	for(int i = 0, i < 5; i++){
+		for(j=i+j; j<=6; j++){
+			int temp;
+			
+			if(numb[i] > numb[j]){
+				temp = numb[i];
+				numb[i] = numb[j];
+				numb[j] = temp;
+			}
+		}
+	}
+	
+	for(int i = 0; i < 6; i++){
+		cout<< endl << numb[i] << endl;
+	}
+	return 0;
+}
